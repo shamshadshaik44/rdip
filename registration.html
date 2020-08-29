@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charser="utf-8">
+	<title>Registration form</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<header>
+     <div class="head">
+     		<a href="https://www.iiit.ac.in/"><img class="logo" src="https://www.iiit.ac.in/img/iiit-new.png"  alt="logo"></a>
+     	    <a class ="redirect_link" href="https://serc.iiit.ac.in/rdip"><strong>RDIP</strong></a>
+     </div>
+     <nav class="nav_bar">
+     	<ul class="nav_links">
+     		<li><a href="homepage.html">Home</a></li>
+     		<li><a href="registration.html">Registration Form</a></li>
+     	</ul>	
+     </nav>	
+    </header>
+    <strong>
+    <div class="content">
+          <form action="details.html" method="get">
+               <div class="input">
+                    <label for="Name">First name:</label>
+                    <input type="text" id="Name" name="Name" class="right" required>
+               </div>
+               <div class="input">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" class="right" required>
+               </div>
+               <div class="input">
+                    <label for="phone">Phone No:</label>
+                    <input type="tel" id="phone" name="phone" class="right" required>
+               </div>
+               <div class="input">
+                    
+                    <label for="gender" class="left">Gender:</label>
+                    
+                    <input type="radio" id="male" name="gender" value="male"  class="right" style="margin-left:110px"required>
+                    <label for="male" class="right">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" class="right" required>
+                    <label for="female" class="right">Female</label>
+                    <input type="radio" id="other" name="gender" value="other" class="right" required>
+                    <label for="other" class="right">Other</label>
+               </div>
+               <div class="input" >
+                    <label for="reason" class="left" >Reason for RDIP:</label>
+                    <input type="checkbox" id="html" name="reason" value="html" class="right" style="margin-left:110px" >
+                    <label for="html" class="right"> HTML</label>
+                    <input type="checkbox" id="css" name="reason"  class="right" value="css" >
+                    <label for="css" class="right"> CSS</label>
+                    <input type="checkbox" id="javascript" name="reason" value="javascript" class="right" >
+                    <label for="javascript" class="right">JavaScript</label>
+               </div>
+               <div class="input">
+                    <label for="college" class="left">College:</label>
+                    <input type="text" id="college" name="college" class="right" required >
+               </div>
+               <p>
+               <div class="input">
+                    <input type="radio" id="declare" required class="left">
+                    I declare above details given by me are true.
+               </div>
+               </p>
+               <div class="input">
+                   
+                    <input type="submit" value="submit" class="left" style=" margin-right:20px" >
+                    <input type= "reset" style="border-radius: 4px">
+               </div>
+          </form>
+     </div>
+</strong>
+</body>
+</html>
